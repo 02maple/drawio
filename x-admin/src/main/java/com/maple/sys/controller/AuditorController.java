@@ -92,13 +92,14 @@ public class AuditorController {
     @PostMapping             //需要json前后端转化
     public Result<?> addSalers (@RequestBody ToSalers toSalers){
 //        toSalersService.save(toSalers);
-        toSalersService.addSalers(toSalers.getSalerName(),toSalers.getPhone(),toSalers.getAddress(),toSalers.getRemark(),toSalers.getResult());
+        toSalersService.addSalers(toSalers.getSalerName(),toSalers.getPhone(),toSalers.getAddress(),toSalers.getRemark());
         return Result.success("添加成功");
     }
 
     @PutMapping             //需要json前后端转化
     public Result<?> updateSalers (@RequestBody ToSalers toSalers){
-        toSalersService.updateById(toSalers);
+//        toSalersService.updateById(toSalers);
+        toSalersService.updateById(toSalers.getSalerName(),toSalers.getPhone(),toSalers.getAddress(),toSalers.getRemark(),toSalers.getSalerId());
         return Result.success("修改成功");
     }
 

@@ -30,13 +30,6 @@
         </el-table-column>
         <el-table-column label="操作状态" width="130">
           <template slot-scope="scope">
-            <!--            <el-switch-->
-            <!--              v-model="scope.row.result"-->
-            <!--              active-color="#5B7BFA"-->
-            <!--              inactive-color="#dadde5"-->
-            <!--              active-value="1"-->
-            <!--              @click="updateResult()"-->
-            <!--            />-->
             <!--            审核通过或者不通过按钮-->
             <el-button type="success" round size="mini" icon="el-icon-check" @click="updateResult(1,scope.row.salerId),scope.row.result=1" />
             <el-button type="danger" round size="mini" icon="el-icon-close" @click="updateResult(0,scope.row.salerId),scope.row.result=0" />

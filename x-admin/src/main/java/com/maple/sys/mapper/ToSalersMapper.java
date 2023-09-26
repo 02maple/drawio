@@ -22,12 +22,13 @@ public interface ToSalersMapper extends BaseMapper<ToSalers> {
     @Select("select * from USER01.TO_SALERS where SALERNAME= #{name}")
     ToSalers getByName(String name);
 
-    @Insert("insert into USER01.TO_SALERS (SALERNAME, PHONE, ADDRESS, REMARK, RESULT)" +
-            "values (#{salername},#{phone},#{address},#{remark},#{result})")
-    void addSalers(String salername,String phone,String address,String remark,String result);
+    @Insert("insert into USER01.TO_SALERS (SALERNAME, PHONE, ADDRESS, REMARK)" +
+            "values (#{salername},#{phone},#{address},#{remark})")
+    void addSalers(String salername,String phone,String address,String remark);
 
     @Update("update USER01.TO_SALERS set RESULT = #{result} where SALERID = #{salerId}")
     void updateResult(int result,int salerId);
 
-//    @Update("update USER01.TO_SALERS set ")
+    @Update("update USER01.TO_SALERS set SALERNAME=#{salername} , PHONE= #{phone} , ADDRESS=#{address} , REMARK=#{remark} where SALERID = #{salerId}")
+    void updateById(String salername,String phone,String address,String remark,int salerId);
 }

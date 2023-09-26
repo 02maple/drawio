@@ -13,8 +13,9 @@ public interface ToSalersService extends IService<ToSalers> {
 
     ToSalers getByName(String name);
 
-    void addSalers(String salername,String phone,String address,String remark,String result);
+    void addSalers(String salername,String phone,String address,String remark);
 
     ToSalers getSalerById(Integer id);
     void updateResult(int result,int salerId);
+    void updateById(String salername,String phone,String address,String remark,int salerId);
 }

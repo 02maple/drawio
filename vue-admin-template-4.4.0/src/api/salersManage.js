@@ -38,7 +38,7 @@ export default {
     return request({
       url: '/auditors',
       method: 'put',
-      date: tosalers
+      data: tosalers
     })
   },
   updateResult(result, salerId) {

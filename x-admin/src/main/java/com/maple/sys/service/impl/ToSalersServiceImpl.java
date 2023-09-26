@@ -41,12 +41,17 @@ public class ToSalersServiceImpl extends ServiceImpl<ToSalersMapper,ToSalers> im
     }
 
     @Override
+    public void updateById(String salername, String phone, String address, String remark, int salerId) {
+        toSalersMapper.updateById(salername,phone,address,remark,salerId);
+    }
+
+    @Override
     public ToSalers getByName(String name) {
         return toSalersMapper.getByName(name);
     }
 
     @Override
-    public void addSalers(String salername, String phone, String address, String remark, String result) {
-        toSalersMapper.addSalers(salername,phone,address,remark,result);
+    public void addSalers(String salername, String phone, String address, String remark) {
+        toSalersMapper.addSalers(salername,phone,address,remark);
     }
 }
