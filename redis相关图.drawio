@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="RsSCYp8_lyTaL0R-eGZh">
-    <mxGraphModel dx="830" dy="1706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="795" dy="1684" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,6 +82,68 @@
         </mxCell>
         <mxCell id="gelLKuvhca_LKsp45Vbf-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.069;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-4" target="gelLKuvhca_LKsp45Vbf-6">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-20" value="" style="rounded=1;whiteSpace=wrap;html=1;opacity=80;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="58" y="-352" width="757" height="266" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-22" target="gelLKuvhca_LKsp45Vbf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-22" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="92" y="-314.62" width="84" height="44.62" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-30" target="gelLKuvhca_LKsp45Vbf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-30" value="删除过期的key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="354" y="-320.24" width="99" height="57.24" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-33" value="结束" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="707" y="-184.5" width="78" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-35" target="gelLKuvhca_LKsp45Vbf-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-35" value="从过期字典随机抽取20个key" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="223" y="-320.25" width="102" height="57.25" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-40" target="gelLKuvhca_LKsp45Vbf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-44" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#B9E0A5;" vertex="1" connectable="0" parent="gelLKuvhca_LKsp45Vbf-43">
+          <mxGeometry x="-0.2176" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-40" target="gelLKuvhca_LKsp45Vbf-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-47" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="gelLKuvhca_LKsp45Vbf-46">
+          <mxGeometry x="0.0227" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-40" value="判断执行时间&lt;div&gt;是否超过上限&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="499" y="-329.24" width="133" height="74.24" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-45" target="gelLKuvhca_LKsp45Vbf-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-49" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#FF9999;" vertex="1" connectable="0" parent="gelLKuvhca_LKsp45Vbf-48">
+          <mxGeometry x="-0.0084" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="gelLKuvhca_LKsp45Vbf-45" target="gelLKuvhca_LKsp45Vbf-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-52" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#B9E0A5;" vertex="1" connectable="0" parent="gelLKuvhca_LKsp45Vbf-51">
+          <mxGeometry x="-0.4216" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gelLKuvhca_LKsp45Vbf-45" value="判断执行过期key数量&lt;div&gt;是否超过25%&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="483.5" y="-211" width="164" height="89" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
