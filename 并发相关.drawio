@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="第 1 页" id="YG0H32AgwFuiiw6GJznY">
-    <mxGraphModel dx="1122" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="830" dy="537" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,6 +86,27 @@
         </mxCell>
         <mxCell id="t2xH-ZcuamF9R5BHjLgE-9" value="执行拒绝策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="t2xH-ZcuamF9R5BHjLgE-25">
           <mxGeometry x="236" y="407" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-28" value="corePoolSize:&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;核心线程数&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="147" width="211" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-29" value="handler:饱和拒绝策略" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1058" y="317" width="211" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-30" value="workQueud:等待队列" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="264" width="213" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-31" value="keepAliveTime&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:非核心线程存活时间&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1292.5" y="208" width="204.5" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-32" value="maxmumPoolSize&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:最大线程数&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="208" width="211" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-33" value="unit&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;:非核心线程存活时间单位&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1289" y="148" width="213" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="t2xH-ZcuamF9R5BHjLgE-34" value="threadFactory:创建线程使用工厂" style="rounded=1;whiteSpace=wrap;html=1;flipV=1;flipH=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1293" y="264" width="205" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
